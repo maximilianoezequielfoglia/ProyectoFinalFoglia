@@ -1,0 +1,35 @@
+.home-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../src/assets/banner.webp);
+}
+.home-banner-title {
+  text-align: center;
+  overflow: hidden;
+}
+.home-banner-title h1 {
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  font-size: 62px;
+  font-weight: bold;
+  padding: 10px;
+}
+.home-banner-title p {
+  font-size: 30px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+.home-banner-title h2 {
+  font-size: xxx-large;
+  font-weight: 900;
+  color: blueviolet;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}

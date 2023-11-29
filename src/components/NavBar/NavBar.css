@@ -1,0 +1,105 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(33, 33, 33);
+  position: sticky;
+  top: 0;
+}
+.nav-brand {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+  justify-self: start;
+  margin-left: 20px;
+  color: blueviolet;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.nav-items a {
+  margin: 10px;
+  font-size: large;
+  font-weight: 500;
+  color: antiquewhite;
+  text-decoration: none;
+  position: relative;
+}
+.nav-items a:hover {
+  opacity: 0.7;
+  color: blueviolet;
+}
+.nav-menu {
+  display: none;
+}
+.cart-widget img {
+  height: 20px;
+  width: 25px;
+  margin-right: 35px;
+}
+.total-items {
+  background-color: blueviolet;
+  opacity: 0.7;
+  color: antiquewhite;
+  border-radius: 45%;
+  font-size: 11px;
+  margin-left: -33px;
+  padding: 3.8px;
+  top: 12.5px;
+  position: absolute;
+  cursor: default;
+}
+@media only screen and (max-width: 768px) {
+  .nav-items {
+    top: 50px;
+    left: 0;
+    position: absolute;
+    background: blueviolet;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: -webkit-fill-available;
+    transform: translateX(-100%);
+  }
+  .nav-items a {
+    color: antiquewhite;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .nav-items a:hover {
+    opacity: 0.7;
+    color: rgb(30, 30, 30);
+  }
+  .nav-items.open {
+    transform: translateX(0) !important;
+    height: 100%;
+    position: fixed;
+    transition: 0.3s ease all;
+  }
+  .nav-menu {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .nav-menu span {
+    width: 30px;
+    height: 4px;
+    background: blueviolet;
+    opacity: 0.7;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.3s linear;
+  }
+  .nav-menu.open span:nth-child(1) {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+  .nav-menu.open span:nth-child(2) {
+    display: none;
+  }
+  .nav-menu.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
+  }
+}
