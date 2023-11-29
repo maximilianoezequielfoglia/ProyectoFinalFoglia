@@ -4,6 +4,10 @@
 
 Este proyecto es un e-commerce de un emprendimiento de ropa deportiva que fue realizado para el curso de React Js de Coderhouse, comisión n° 60990.
 
+## Deploy del proyecto:
+
+- Netlify "https://saucoindumentaria.netlify.app/"
+
 ## Autor:
 
 - Linkedin "https://linkedin.com/in/maximilianoefoglia"
@@ -30,10 +34,11 @@ Este proyecto es un e-commerce de un emprendimiento de ropa deportiva que fue re
 ## Algunas de las aplicaciones utilizadas:
 
 - [Visual Studio Code](https://code.visualstudio.com/download "Visual Studio Code")
-- [Google Chrome](https://www.google.com/intl/es-419/chrome/ "Google Chrome")
+- [Google Chrome](https://google.com/intl/es-419/chrome/ "Google Chrome")
 - [Firebase](https://firebase.google.com/ "Firebase")
 - [GitHubDesktop](https://desktop.github.com/ "GitHub Desktop")
 - [GitHub](https://github.com/ "GitHub")
+- [Netlify](https://netlify.com/ "Netlify")
 
 ## Algunas de las extensiones utilizadas en Visual Studio Code:
 
