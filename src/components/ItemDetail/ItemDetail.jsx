@@ -1,10 +1,7 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../../Context/CartContext";
 import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
 import ItemCount from "../ItemCount/ItemCount";
-
-const MySwal = withReactContent(Swal);
 
 const ItemDetail = ({ item }) => {
   const { addItem, cart } = useContext(CartContext);
@@ -34,7 +31,7 @@ const ItemDetail = ({ item }) => {
               addItem(item, quantity);
               const Toast = Swal.mixin({
                 toast: true,
-                position: "top-end",
+                position: "top-right",
                 color: "antiquewhite",
                 background: "blueviolet",
                 showConfirmButton: false,
