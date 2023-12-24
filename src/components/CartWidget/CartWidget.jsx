@@ -7,7 +7,7 @@ const CartWidget = () => {
   const { cart } = useContext(CartContext);
   return (
     <Link className="cart-widget" to="/cart">
-      <img src="../../../public/cart.svg" />
+      <img src="/cart.svg" />
       {cart.length > 0 ? <CartView /> : null}
     </Link>
   );
